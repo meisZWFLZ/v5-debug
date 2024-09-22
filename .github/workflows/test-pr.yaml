@@ -12,8 +12,7 @@ jobs:
         id: filter
         with:
           filters: |
-            color: ./**/color/**
-            hello: ./**/hello/**
+            v5-debug: ./**/v5-debug/**
 
   test:
     needs: [detect-changes]

@@ -1,0 +1,11 @@
+{
+    "id": "v5-debug",
+    "version": "0.0.1",
+    "name": "Vex V5 Debugging Environment",
+    "description": "A debugging environment for the vex v5 system using the vexide/vex-v5-qemu simulator. Currently only works for pros projects.",
+    "documentationURL": "https://github.com/meiszwflz/v5-debug/tree/main/src/v5-debug",
+    "licenseURL": "https://github.com/meiszwflz/v5-debug/blob/main/LICENSE",
+    "platforms": [
+        "Any"
+    ]
+}

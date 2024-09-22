@@ -1,0 +1,38 @@
+{
+	"name": "Vex V5 Debugging Environment",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+	// 👇 Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "clangd.path": "/usr/local/share/clangd/bin/clangd"
+      },
+      "extensions": [
+        "jeff-hykin.better-cpp-syntax",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "streetsidesoftware.code-spell-checker",
+        "cschlosser.doxdocgen",
+        "mhutchie.git-graph",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens",
+        "vivaxy.vscode-conventional-commits",
+        "hediet.debug-visualizer"
+      ]
+    }
+  }
+
+	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+	// "features": {},
+
+	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// 👇 Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "cat /usr/local/etc/greeting.txt"
+
+	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
